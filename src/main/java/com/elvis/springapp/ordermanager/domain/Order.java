@@ -39,4 +39,12 @@ public class Order implements Identifiable{
     public void setComplete(boolean complete) {
         isComplete = complete;
     }
+
+    public void markIncomplete(){
+        setComplete(false);
+    }
+
+    public void markIncomplete){
+        setComplete(true);
+    }
 }
