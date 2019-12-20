@@ -1,6 +1,6 @@
 package com.elvis.springapp.ordermanager.domain;
 
-public class Order implements Identifiable<Long>{
+public class Order implements Identifiable{
     private Long id;
     private String description;
     private long costInCents;
